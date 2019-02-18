@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "%"
 
-cient.on("ready", function() { 
+client.on("ready", function() { 
         bot.user.setActivity("%help for commands") 
     console.log("Booted up!"); 
 });
