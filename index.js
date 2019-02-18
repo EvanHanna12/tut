@@ -10,6 +10,6 @@ lient.on("ready", function() {
 client.on("message", (message) => {
   if(message.content.startsWith(PREFIX + "ping")){
         message.channel.send("PONG!");
-});
+  }});
 
 client.login(Process.env.token);
