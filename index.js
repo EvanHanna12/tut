@@ -12,4 +12,4 @@ client.on("message", (message) => {
         message.channel.send("PONG!");
   }});
 
-client.login(Process.env.token);
+client.login(process.env.token);
