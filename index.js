@@ -6,7 +6,7 @@ client.once('ready', () => {
 });
 client.on('message', message => {
 	if (message.content === 'c!about') {
-		message.channel.send('This Bot Was For Coding Lounge And Will Be Helping U With Ur Coding.         Thank For Choosing Coding Bot#4060 Have A Nice Day');
+		message.channel.send(' Hello! This Bot Was Made For Coding Lounge And Will Be Helping U With Ur Coding Lesson.Thank For Choosing Coding Bot#4060 Have A Nice Day');
 	}
 });
 
