@@ -10,6 +10,9 @@ client.on("ready", function() {
 client.on("message", (message) => {
   if(message.content.startsWith(PREFIX + "ping")){
         message.channel.send("PONG!");
+  if(message.content.startsWith(PREFIX + "code")){
+          message.channel.send("Not Available");
+
   }});
 
 client.login(process.env.token);
