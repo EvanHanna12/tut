@@ -5,8 +5,8 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 client.on('message', message => {
-	if (message.content === 'c!ping') {
-		message.channel.send('Pong.');
+	if (message.content === 'c!about') {
+		message.channel.send('This Bot Was For Coding Lounge And Will Be Helping U With Ur Coding /n Thank For Choosing Coding Bot#4060 Have A Nice Day');
 	}
 });
 
