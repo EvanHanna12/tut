@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const PREFIX = "j!"
+const PREFIX = "c!"
 
 client.on("ready", function() { 
-        client.user.setActivity("%help for commands") 
+        client.user.setActivity("With EvanTheSavage#0153") 
     console.log("Booted up!"); 
 });
 
